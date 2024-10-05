@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef ParentName="GeneVoiceBase">
+    <defName>VoiceCatGirl</defName>
+    <label>cat girl voice</label>
+    <description>Carriers have a cat girl voice.</description>
+    <iconPath>UI/Icons/Genes/Gene_VoiceCatGirl</iconPath>
+    <displayOrderInCategory>135</displayOrderInCategory>
+    <soundCall>Pawn_CatGirl_Call</soundCall>
+    <soundDeath>Pawn_CatGirl_Death</soundDeath>
+    <soundWounded>Pawn_CatGirl_Wounded</soundWounded>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>cat</symbol></li>
+        <li><symbol>feline</symbol></li>
+        <li><symbol>catgirl</symbol></li>
+        <li><symbol>meower</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>nya</symbol></li>
+        <li><symbol>cat</symbol></li>
+        <li><symbol>meow</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>nya</symbol></li>
+        <li><symbol>cat</symbol></li>
+        <li><symbol>meow</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+	
+</Defs>
