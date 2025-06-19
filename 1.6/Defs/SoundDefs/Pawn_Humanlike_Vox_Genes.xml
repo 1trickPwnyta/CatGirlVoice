@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <SoundDef>
+	  <defName>Pawn_CatGirl_Call</defName>
+	  <context>MapOnly</context>
+	  <subSounds>
+		<li>
+		  <grains>
+			<li Class="AudioGrain_Folder">
+			  <clipFolderPath>CatGirl/Call</clipFolderPath>
+			</li>
+		  </grains>
+		  <volumeRange>42</volumeRange>
+		  <pitchRange>0.95~1.05</pitchRange>
+		  <sustainLoop>False</sustainLoop>
+		</li>
+	  </subSounds>
+    </SoundDef>
+  
+    <SoundDef>
+      <defName>Pawn_CatGirl_Death</defName>
+      <context>MapOnly</context>
+      <subSounds>
+        <li>
+          <grains>
+            <li Class="AudioGrain_Folder">
+              <clipFolderPath>CatGirl/Death</clipFolderPath>
+            </li>
+          </grains>
+          <volumeRange>48</volumeRange>
+          <pitchRange>0.95~1.05</pitchRange>
+          <sustainLoop>False</sustainLoop>
+        </li>
+      </subSounds>
+    </SoundDef>
+  
+    <SoundDef>
+      <defName>Pawn_CatGirl_Wounded</defName>
+      <context>MapOnly</context>
+      <subSounds>
+        <li>
+          <grains>
+            <li Class="AudioGrain_Folder">
+              <clipFolderPath>CatGirl/Wounded</clipFolderPath>
+            </li>
+          </grains>
+          <volumeRange>32</volumeRange>
+          <pitchRange>0.95~1.05</pitchRange>
+          <sustainLoop>False</sustainLoop>
+          <repeatMode>NeverTwice</repeatMode>
+        </li>
+      </subSounds>
+    </SoundDef>
+	
+</Defs>
